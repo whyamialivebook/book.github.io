@@ -1,0 +1,67 @@
+body{
+  /* background-image: url('../images/water1-less-air.jpg'); */
+  background-size: cover;
+  background-image: url('../images/stormy-waters-min.jpg');
+  background-attachment: fixed;
+
+}
+
+
+.title-text {
+  text-align: center;
+  padding-top: .5em;
+  /* color: #0077be; */
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.title-subtext {
+  text-align: center;
+  padding-top: .5em;
+  margin: .5em;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  /* max-width: 30px; */
+}
+
+/* 3D Book */
+
+#bookimage {
+
+    max-width: 600px;
+    padding-top: 2em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-bottom: 6em; */
+    color: white;
+}
+
+#bookimage > img {
+max-width: 80%;
+margin: auto;
+}
+
+.testimonials {
+    margin:2em auto;
+    max-width: 1000px;
+    border-radius: 5px;
+    font-size: 20px;
+    /* background-color: #f2f2f2; */
+    padding: 20px;
+    /* color: #0077be; */
+    color: white;
+
+    text-align: center;
+}
+
+
+.youtube-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4em;
+}
